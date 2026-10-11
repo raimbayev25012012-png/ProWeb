@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProWeb Studio — Biznesingiz uchun Saytlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigatsiya -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Pro<span>Web</span></a>
+            <ul class="nav-links">
+                <li><a href="#services">Xizmatlar</a></li>
+                <li><a href="#contact" class="nav-btn">Buyurtma berish</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Asosiy Banner (Hero) -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Biznesingiz uchun <br><span class="highlight">Zamonaviy Saytlar</span> Yasab Beramiz</h1>
+            <p>Internetda oʻz savdoingizni oshiring va mijozlarni jalb qiling. Professional vizitka, landing page va onlayn doʻkonlar!</p>
+            <a href="#contact" class="btn">Sayt Buyurtma Qilish</a>
+        </div>
+    </header>
+
+    <!-- Xizmatlar -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Biz Nima Qilamiz?</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Vizitka Sayt</h3>
+                    <p>Shaxsiy brend va kichik xizmatlar uchun tezkor va chiroyli sayt.</p>
+                </div>
+                <div class="card">
+                    <h3>Landing Page</h3>
+                    <p>Bitta mahsulot yoki xizmatni reklama qilib, mijoz olib keluvchi sahifa.</p>
+                </div>
+                <div class="card">
+                    <h3>Onlayn Doʻkon</h3>
+                    <p>Mahsulotlaringizni internetda sotish uchun toʻliq savdo platformasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aloqa va Buyurtma Formasi -->
+    <section id="contact" class="section bg-light">
+        <div class="container contact-container">
+            <h2 class="section-title">Loyihangizni boshlaymizmi?</h2>
+            <p class="contact-desc">Maʼlumotlaringizni yozib qoldiring, biz darhol siz bilan Telegram orqali bogʻlanamiz!</p>
+            
+            <form id="orderForm" class="form">
+                <input type="text" id="name" placeholder="Ismingiz" required>
+                <input type="tel" id="phone" placeholder="Telefon raqamingiz (+998901234567)" required>
+                <textarea id="message" rows="4" placeholder="Qanaqa sayt kerakligi haqida qisqacha yozing..." required></textarea>
+                <button type="submit" class="btn">Telegramga Yuborish</button>
+            </form>
+            <div id="status" class="status"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ProWeb Studio. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
